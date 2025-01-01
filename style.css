@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+#resolutionInput {
+    font-size: 18px;
+    padding: 10px;
+    width: 60%;
+    border: 2px solid #ff6700;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#addResolutionButton {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#addResolutionButton:hover {
+    background-color: #ff4500;
+}
+
+#quote {
+    font-size: 20px;
+    margin-top: 30px;
+    color: #ff0000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#resolutionsContainer {
+    margin-top: 30px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.resolution {
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: ;
+}
+
+.resolution input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.deleteButton {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deleteButton:hover {
+    background-color: #ff4500;
+}
